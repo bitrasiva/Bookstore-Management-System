@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bookstore Management System</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="title">Bookstore Management System</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Books</a>
+                <a href="#">Add Book</a>
+                <form id="search-form">
+                    <input type="text" id="search-input" name="search-input" placeholder="&#x1F50E;">
+                    <button type="submit">Search</button>
+                </form>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="book-listing">
+            <h2>Books</h2>
+            <!-- Book cards will be dynamically added here -->
+        </section>
+        <section id="add-book">
+            <h2>Add Book</h2>
+            <form id="add-book-form">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" required>
+                <label for="genre">Genre:</label>
+                <input type="text" id="genre" name="genre" required>
+                <label for="price">Price:</label>
+                <input type="number" id="price" name="price" required>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" required>
+                <button type="submit">Add Book</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bookstore Management System. All rights reserved.</p>
+    </footer>
+    <script>
+        // Add your JavaScript code here
+    </script>
+</body>
+</html>
